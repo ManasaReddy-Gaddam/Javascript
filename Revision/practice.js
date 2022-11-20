@@ -1,0 +1,12 @@
+const x = 35;
+const y = 65;
+const sum = x + y;
+console.log(sum);
+const sub = y - x;
+console.log(sub);
+const div = y / x;
+console.log(div);
+const modulus = y % x;
+console.log(modulus);
+const multi = y * x;
+console.log(multi);

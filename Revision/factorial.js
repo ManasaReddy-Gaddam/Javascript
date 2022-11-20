@@ -5,6 +5,7 @@ function factorialOfANumber(num) {
     for(let i = num; i >= 1; i--) {
         answer = answer * i; 
     }
+    console.log(JSON.stringify(this));
     return answer;
 }
 const result = factorialOfANumber(number);
